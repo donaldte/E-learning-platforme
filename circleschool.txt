@@ -1,0 +1,32 @@
+Plan
+creation d'une plateform "TedomSchool" ou les enseignant peuvent charger les cours et le programme(documment, diagramme, video, presentation, etc). L'enseignant devra etre capable de planifier, organiser, et afficher le programme des semaines à venir pour plus de transparence.
+
+Identifier et executer les applications qui permetent les differents utilisateurs tels que: etudiant, parent, et l'enseignant(pour les ost, commentaire)
+
+
+-classe
+--sujets
+--- programme du jour
+----document, video, animation, etc(materiel d'etude)
+----commentaire et reponses(par tout lamda)
+
+Applications:
+ 	utilisateur et cours
+
+model de classe:
+utilisateur: modèle d'utilisateur personnalisé
+cours: classe, sujet, lesson, commentaire
+
+UTILISATEURS: enseignants, etudiants, parents
+
+model d'utilisateurs:
+-nom(one to one avec le model user de django)
+-bio
+-profile
+-type d'utilisateu
+** chaque type d'utilisateur aura son type d'accessibilite
+
+ model de classe:
+ 	-nom de classe
+ 	-description
+ 	 	
